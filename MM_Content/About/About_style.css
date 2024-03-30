@@ -1,0 +1,288 @@
+
+
+/* ======== MAIN =======  */
+
+.intro_abt_bdr{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* height: 100%; */
+}
+
+.intro_abt_bdr .intro_abt_box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000055;
+    z-index: 5;
+}
+
+.intro_abt_bdr .intro_abt_bcg{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.intro_abt_bcg .intro_abt_img{
+    width: 100%;
+    height: 100%;
+    object-position: 50%;
+    object-fit: cover;
+}
+
+.linkBox{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section_single_bdr{
+    width: 100%;
+}
+
+.section_single_box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section_single_box.foreward{
+    flex-direction: row;
+}
+.section_single_box.backward{
+    flex-direction: row-reverse;
+}
+
+.section_single_box .sect{
+    width: 50%;
+}
+
+.section_single_box .sect.left_sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sect.left_sect p{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.sect.left_sect a{
+    color: var(--color1);
+    font-size: var(--fzTxt);
+    padding: 0 0 2px;
+}
+
+.sect.left_sect a::after{
+    background-color: var(--color1);
+}
+
+
+.section_single_box .sect.right_sect{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sect.right_sect .sect_map_bdr{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sect_map_bdr .sect_map_box{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sect_map_box .map_boxes{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sect_map_box .map_boxes.mid{
+    width: 175px;
+    height: 250px;
+}
+
+.map_boxes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+}
+
+.map_boxes:hover .img_cover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sect.sect_img_bdr{
+    max-width: 1000px;
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect.sect_img_bdr .sect_img_box{
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.sect_img_box .sect_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.getapp_bdr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getapp_bdr .get_appBox{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    justify-items: center;
+    gap: 10px;
+}
+
+.get_appBox .appLink{
+    width: 100%;
+    height: 50px;
+}
+
+.appLink .appLink_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================== RESPONSIVE ============= */
+
+/* ----- Height ------ */
+
+
+
+
+/* ------ Both ------- */
+
+
+
+
+/* ------- Width ------ */
+
+@media only screen and (max-width: 1080px) 
+{
+}
+
+
+@media only screen and (max-width: 780px) 
+{
+    .linkBox{
+        align-items: center;
+    }
+
+    .section_single_box{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section_single_box .sect{
+        width: 100%;
+    }
+
+    .section_single_box.foreward{
+        flex-direction: column;
+    }
+    .section_single_box.backward{
+        flex-direction: column;
+    }
+    
+    .section_single_box .sect.left_sect{
+        justify-content: center;
+    }
+
+    .sect_map_box .map_boxes{
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .sect_map_box .map_boxes.mid{
+        width: 125px;
+        height: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 485px) 
+{
+
+    .sect_map_box .map_boxes{
+        width: 60px;
+        height: 100px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .sect_map_box .map_boxes.mid{
+        width: 80px;
+        height: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

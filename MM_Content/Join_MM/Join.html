@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" class="darkMode">
+    <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Missile Mayhem | Play Online</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="shortcut icon" href="../../MM_Img/MissileMayhem_IcoImg.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../MM_Main_Style.css">
+    <link rel="stylesheet" type="text/css" href="Join_style.css">
+	<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/a46ad8b86a.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bodystop">
+
+        <!-- Preloader -->
+        <div class="preloader_bdr">
+            <span class="preloader_bob">
+                <div class="bob" style="--prebob:1"></div>
+                <div class="bob" style="--prebob:2"></div>
+                <div class="bob" style="--prebob:3"></div>
+            </span>
+        </div>
+
+
+        <!-- NavBar -->
+        <nav class="navbar_bdr">
+            <div class="navbar_box">
+                <div class="groupIcon_box">
+                    <div class="groupName_box">
+                        <h4 class="gName">Missile Mayhem</h4>
+                        <p class="gPhrase">Survive the Blasts!</p>
+                    </div>
+                    <div class="gIcon_bdr">
+                        <div class="gIcon">
+                            <img src="../../MM_Img/MissileMayhem_groupIconFrontDark.jpg" alt="" class="gIcon_front">
+                            <img src="../../MM_Img/MissileMayhem_groupIconBackDark.gif" alt="" class="gIcon_back">
+                            <div class="img_cover"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navlinks_bdr">
+                    <ul class="navlinks_box">
+                        <li class="navlink">
+                            <a class="" href="../Home/home.html">Home</a>
+                        </li>
+                        <li class="navlink ">
+                            <a class="" href="../About/About.html" target="_self">About</a>
+                        </li>
+                        <li class="navlink">
+                            <a class="" href="../Contact/HelpCenter.html" target="_self">Contact</a>
+                        </li>
+                        <li class="navlink">
+                            <a class="" href="../Donations/Support.html" target="_self">Support</a>
+                        </li>
+                        <li class="navlink">
+                            <a class="" href="../Community/Community.html" target="_self">Community</a>
+                        </li>
+                        <li class="navlink">
+                            <a class="" href="../News/News.html" target="_self">News</a>
+                        </li>
+                        <li class="navlink">
+                            <i class="fa-regular fa-user-circle gotToProfile"></i>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars navlink_toggle"></i>
+            </div>
+        </nav>
+
+        <!-- navbar bcg -->
+        <div class="navLinkBcg"></div>
+
+        <!-- space -->
+        <div class="give_space"></div>
+
+
+        <!-- Account Form -->
+        <div class="join_fence">
+            <div class="join_area">
+                <div class="join_house active">
+
+                    <!-- close btn -->
+                    <span class="genIconBox join_close_btn">
+                        <i class="fas fa-times fa-2xl genIcon"></i>
+                    </span>
+
+                    <!-- ctnt -->
+                    <div class="join_bdr">
+                        <div class="join_box">
+
+                            <!-- Log In Form -->
+                            <div class="join_formBox logIn_FormBox active">
+                                <form action="#" name="logInForm" id="logIn_form" class="join_form logIn_form_class">
+                                    <div class="form_ctnt">
+
+                                        <!-- TItle -->
+                                        <div class="form_title_box">
+                                            <h2 class="form_title">Welcome Back</h2>
+                                        </div>
+
+                                        <!-- Form fields -->
+                                        <div class="form_inputArea">
+
+                                            <!--  Username -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_logIn_id" class="form_input_name">Username</label>
+                                                </div>
+                                                <div class="form_input_box">
+                                                    <input type="text" id="form_logIn_id" class="form_input_field" placeholder="Username">
+                                                </div>
+                                            </div>
+
+                                            <!-- Password -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_logIn_pass" class="form_input_name">Password</label>
+                                                </div>
+                                                <div class="form_input_box form_PassBox">
+                                                    <input type="password" id="form_logIn_pass" class="form_input_field form_Pass" placeholder="Password">
+                                                    <label for="form_logIn_pass" class="seeUnseePass_Box">
+                                                        <i class="fa-regular fa-eye seeUnseePass"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <!-- Error message -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_warn" id="logIn_warn"></div>
+                                            </div>
+
+                                            <!-- Log In btn -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_submit_box">
+                                                    <input type="button" class="genBtn form_submit_btn form_LogIn " id="logIn_btn" value="Log In" >
+                                                </div>
+                                            </div>
+
+                                            <!-- Forgot Password -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Forgot Password?</span>
+                                                        <span class="form_links toRecoverAccForm">Reset Password</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Open Sign up form if you havent got an account -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Don't have an Account?</span>
+                                                        <span class="form_links toSignUpForm">Sign Up</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Contact us if you need help -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Experiencing any issues?</span>
+                                                        <span class="form_links">
+                                                            <a href="../Contact/HelpCenter.html" class="form_links" target="_blank">Let us know</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Reset Password Form -->
+                            <div class="join_formBox RecoverAcc_FormBox ">
+                                <form action="#" name="RecoverAccForm" id="RecoverAcc_form" class="join_form RecoverAcc_form_class">
+                                    <div class="form_ctnt">
+
+                                        <!-- TItle -->
+                                        <div class="form_title_box">
+                                            <h2 class="form_title">Recover your Account</h2>
+                                        </div>
+
+                                        <!-- Form fields -->
+                                        <div class="form_inputArea">
+
+                                            <!-- Email -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_recover_Acc" class="form_input_name">Email</label>
+                                                </div>
+                                                <div class="form_input_box">
+                                                    <input type="text" id="form_recover_Acc" class="form_input_field" placeholder="Enter your email">
+                                                </div>
+                                            </div>
+
+                                            <!-- Error message -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_warn" id="form_recover_AccWarn"></div>
+                                            </div>
+
+                                            <!-- Submit btn -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_submit_box">
+                                                    <input type="button" class="genBtn form_submit_btn " id="recoverAcc_btn" value="Submit" >
+                                                </div>
+                                            </div>
+
+                                            <!-- Open Sign up form if you havent got an account -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Have an Account?</span>
+                                                        <span class="form_links toLogInForm">Log In</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Contact us if you need help -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Experiencing any issues?</span>
+                                                        <span class="form_links">
+                                                            <a href="../Contact/HelpCenter.html" class="form_links" target="_blank">Let us know</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Sign Up Form -->
+                            <div class="join_formBox signUp_FormBox ">
+                                <form action="#" name="signUpForm" id="signUp_form" class="join_form signUp">
+                                    <div class="form_ctnt">
+
+                                        <!-- title -->
+                                        <div class="form_title_box">
+                                            <h2 class="form_title">Create your Account</h2>
+                                        </div>
+
+                                        <!-- Form Fields -->
+                                        <div class="form_inputArea">
+
+                                            <!-- Username -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_signUp_user" class="form_input_name">Username</label>
+                                                </div>
+                                                <div class="form_input_box">
+                                                    <input type="text" id="form_signUp_user" class="form_input_field" placeholder="Username">
+                                                </div>
+
+                                                <!-- warning/error -->
+                                                <div class="form_input_warn" id="form_signUp_userWarn"></div>
+                                            </div>
+
+                                            <!-- Email -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_signUp_email" class="form_input_name">Email</label>
+                                                </div>
+                                                <div class="form_input_box">
+                                                    <input type="text" id="form_signUp_email" class="form_input_field" placeholder="name@email.com">
+                                                </div>
+
+                                                <!-- warning/error -->
+                                                <div class="form_input_warn" id="form_signUp_emailWarn"></div>
+                                            </div>
+
+                                            <!-- Password -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_signUp_pass" class="form_input_name">Password</label>
+                                                </div>
+                                                <div class="form_input_box form_PassBox">
+                                                    <input type="password" id="form_signUp_pass" class="form_input_field form_Pass" placeholder="Password">
+                                                    <label for="form_signUp_pass">
+                                                        <i class="fa-regular fa-eye seeUnseePass"></i>
+                                                    </label>
+                                                </div>
+
+                                                <!-- Password Conditons -->
+                                                <div class="form_condBox">
+                                                    <div class="cond_title">
+                                                        Password must contain:
+                                                    </div>
+                                                    <ul class="cond_list">
+                                                        <li class="cond_listItem">
+                                                            <div class="listItem_ctnt passLength badCond">
+                                                                <span class="listItem_ctntIcon">
+                                                                    <i class="fa-solid fa-xmark-circle badCond"></i>
+                                                                </span>
+                                                                <span class="lisItem_ctntText">
+                                                                    At least 8 characters
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="cond_listItem">
+                                                            <div class="listItem_ctnt passLetter badCond">
+                                                                <span class="listItem_ctntIcon">
+                                                                    <i class="fa-solid fa-xmark-circle"></i>
+                                                                </span>
+                                                                <span class="lisItem_ctntText">
+                                                                    A letter [a-z , A - Z]
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="cond_listItem">
+                                                            <div class="listItem_ctnt passNumber badCond">
+                                                                <span class="listItem_ctntIcon">
+                                                                    <i class="fa-solid fa-xmark-circle"></i>
+                                                                </span>
+                                                                <span class="lisItem_ctntText">
+                                                                    A number [0 - 9]
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="cond_listItem">
+                                                            <div class="listItem_ctnt passSpecChar badCond">
+                                                                <span class="listItem_ctntIcon">
+                                                                    <i class="fa-solid fa-xmark-circle"></i>
+                                                                </span>
+                                                                <span class="lisItem_ctntText">
+                                                                    A special character [!@#$\%^&/|*]
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- Confirm Password -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_nameBox">
+                                                    <label for="form_signUp_confpass" class="form_input_name">Confirm Password</label>
+                                                </div>
+                                                <div class="form_input_box form_PassBox">
+                                                    <input type="password" id="form_signUp_confpass" class="form_input_field form_Pass" placeholder="Confirm Password">
+                                                    <label for="form_signUp_confpass">
+                                                        <i class="fa-regular fa-eye seeUnseePass"></i>
+                                                    </label>
+                                                </div>
+
+                                                <!-- warning/error -->
+                                                <div class="form_input_warn" id="form_signUp_confpassWarn"></div>
+                                            </div>
+
+                                            <!-- Terms and Conditions -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>By signing up you are agreeing to our</span>
+                                                        <span>
+                                                            <a href="#" class="form_links" target="_blank">Terms of Use</a> 
+                                                            and
+                                                            <a href="#" class="form_links" target="_blank">Privacy policies</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Sign Up button -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_submit_box">
+                                                    <input type="button" class="genBtn form_submit_btn form_SignUp" id="signUp_btn" value="Sign Up">
+                                                </div>
+                                            </div>
+
+                                            <!-- Log in if you already have an account -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Already have an Account?</span>
+                                                        <span class="form_links toLogInForm">Log In</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Contact us if you hav eany issues -->
+                                            <div class="form_input_bdr">
+                                                <div class="form_input_box">
+                                                    <div class="form_text">
+                                                        <span>Experiencing any issues?</span>
+                                                        <span class="form_links">
+                                                            <a href="../Contact/HelpCenter.html"" class="form_links" target="_blank">Let us know</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- space -->
+        <div class="give_space"></div>
+
+
+
+
+
+
+
+
+
+        <!-- Script -->
+        <script src="../../MM_Main_Script.js"></script>
+        <script src="Join_script.js"></script>
+
+    </body>
+</html>
