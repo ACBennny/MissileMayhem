@@ -104,63 +104,63 @@
     // Site Name to home
         navSiteName.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Home/home.html" , "_self");
+                goToThisPage("/MM_Content/Home/home.html" , "_self");
             });
         });
 
     // Join
         navToJoin.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Join_MM/Join.html" , "_self");
+                goToThisPage("/MM_Content/Join_MM/Join.html" , "_self");
             });
         });
     
     // Home
         navToHome.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Home/home.html" , "_self");
+                goToThisPage("/MM_Content/Home/home.html" , "_self");
             });
         });
 
     // About
         navToAbt.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../About/About.html" , "_self");
+                goToThisPage("/MM_Content/About/About.html" , "_self");
             });
         });
 
     // Contact
         navToContact.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Contact/HelpCenter.html" , "_self");
+                goToThisPage("/MM_Content/Contact/HelpCenter.html" , "_self");
             });
         });
 
     // Support
         navToSupport.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Donations/Support.html" , "_self");
+                goToThisPage("/MM_Content/Donations/Support.html" , "_self");
             });
         });
 
     // Community
         navToCommunity.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Community/Community.html" , "_self");
+                goToThisPage("/MM_Content/Community/Community.html" , "_self");
             });
         });
 
     // News
         navToNews.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../News/News.html" , "_self");
+                goToThisPage("/MM_Content/News/News.html" , "_self");
             });
         });
 
     // Profile
         navToProfile.forEach(icon => {
             icon.addEventListener("click" , () => {
-                goToThisPage("../Account/Profile.html" , "_self");
+                goToThisPage("/MM_Content/Account/Profile.html" , "_self");
             });
         });
 
