@@ -156,8 +156,8 @@ i{
     border: none;
     background-color: var(--color1);
     transition: 300ms;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     cursor: pointer;
@@ -201,16 +201,16 @@ i{
     opacity: 0;
     visibility: hidden;
     z-index: 5;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
 }
 
 img, video{
-    -moz-user-select: none !important;
     -moz-user-select: -moz-none !important;
+    -moz-user-select: none !important;
     -webkit-user-select: none !important;
     user-select: none !important;
     pointer-events: none !important;
@@ -1198,8 +1198,8 @@ img, video{
     display: flex;
     align-items: center;
     transition: 300ms;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
@@ -1223,8 +1223,8 @@ img, video{
     opacity: 0;
     visibility: hidden;
     transition: 300ms;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
@@ -1379,8 +1379,8 @@ img, video{
     padding: 5px;
     gap: 5px;
     text-transform: uppercase;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -1388,8 +1388,8 @@ img, video{
 .ver_loader .vl_note #loader_ctnt{
     color: var(--color1);
     font-size: 18px;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -1400,8 +1400,8 @@ img, video{
     color: var(--color1);
     animation: note_spin 1000ms linear infinite;
     animation-delay: calc(0.3s * var(--i));
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -1447,8 +1447,8 @@ img, video{
     padding: 20px;
     background-color: var(--color4);
     border-radius: 25px;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     overflow: hidden;
@@ -1494,8 +1494,8 @@ img, video{
     border: none;
     background-color: var(--color1);
     transition: 300ms;
-    -moz-user-select: none;
     -moz-user-select: -moz-none;
+    -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     cursor: pointer;
