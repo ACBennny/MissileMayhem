@@ -1139,8 +1139,7 @@ img, video{
 
 /* -- Conditions for password input -- */
 
-.form_input_box:focus-within
- ~ .form_condBox{
+.form_condBox.active{
     height: 100px;
     opacity: 1;
     visibility: visible;
