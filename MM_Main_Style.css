@@ -951,7 +951,6 @@ img, video{
     height: 100vh;
     -webkit-backdrop-filter: blur(var(--bcgFilt));
     backdrop-filter: blur(var(--bcgFilt));
-    z-index: 1000000;
     overflow-x: hidden;
     overflow-y: auto;
 }
