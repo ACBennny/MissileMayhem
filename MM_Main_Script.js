@@ -645,9 +645,9 @@
 
 
                     // Account Recovery / Reset Password
-                    let testLog_user = "uvidtestuser";
+                    let testLog_user = "missile";
                     let testLog_email = "craft.testuser.Acc.email@gmail.com";
-                    let testLog_pass = "@abcd=1234";
+                    let testLog_pass = "password=123";
                     let testTimer;
 
                     // Submitting Info
@@ -919,7 +919,7 @@
                             // This occurs if user's input is valid and the inputted values are correct
                             if(((isUserLogValid == true) 
                                 && (isUserPassValid == true) 
-                                && (userName.value == testLog_user.valueOf()) 
+                                && (userName.value == .valueOf()) 
                                 && (userPassword.value == testLog_pass.valueOf())
                             ))
                             {
