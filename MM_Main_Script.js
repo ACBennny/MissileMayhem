@@ -919,7 +919,7 @@
                             // This occurs if user's input is valid and the inputted values are correct
                             if(((isUserLogValid == true) 
                                 && (isUserPassValid == true) 
-                                && (userName.value == .valueOf()) 
+                                && (userName.value == testLog_user.valueOf()) 
                                 && (userPassword.value == testLog_pass.valueOf())
                             ))
                             {
