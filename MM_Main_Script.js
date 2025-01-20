@@ -927,7 +927,7 @@
                                 logInWarn.classList.add("active");
                                 testTimer = setTimeout(() => 
                                 {
-                                    window.location.pathname = "/Library/Anime.html";
+                                    window.location.pathname = "/mm_content/home/home.html";
                                 }, 1500);
                             }
                             // If it is not correct, the user is required to try again
